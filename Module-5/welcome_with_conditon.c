@@ -2,14 +2,15 @@
 
 int main()
 {
-    long long A;
-    long long B;
-    scanf("%lld %lld",&A,&B);
+    int A;
+    int num;
+    scanf("%lld",&A);
+    num = A/1000;
 
-    if(A%B==0 || B%A==0){
-        printf("Multiples");
+    if(num%2 == 0){
+        printf("EVEN");
     }else{
-        printf("No Multiples");
+        printf("ODD");
     }
     return 0;
 }
