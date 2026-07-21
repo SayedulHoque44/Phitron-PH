@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char s[10001];
+    scanf("%s",&s);
+
+    for(int i=1; i<=5;i++){
+        for(int j=1;j<=i; j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
